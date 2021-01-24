@@ -1,0 +1,105 @@
+.option {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 200px;
+  border-radius: 3%;
+  border: 1px solid $sidebar-background-color;
+  background-color: $sidebar-background-color;
+
+  a {
+    flex: 3;
+    text-decoration: none;
+    color: $sidebar-font-color;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+
+  img {
+    color: $sidebar-font-color;
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    flex: 1;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+}
+
+.option:active {
+  background-color: #2b2b2b;
+  filter: brightness(150%);
+}
+
+.option:hover {
+  background-color: #0a0a0a;
+  filter: brightness(150%);
+  cursor: pointer;
+}
+
+aside {
+  opacity: 0.9;
+  position: fixed;
+  z-index: 2;
+  max-width: 280px;
+  background-color: $sidebar-background-color;
+
+
+  p {
+    color: $sidebar-font-color;
+    font-weight: bold;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+    
+  ul {
+    list-style-type: none;
+    padding-inline-start: 5px;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+  }
+
+  .logo {
+    color: $sidebar-font-color;
+    margin: 0 0 20px 10px;
+    height: 60px;
+    width: 200px;
+    border: 1px solid $sidebar-background-color;
+    background-color: $sidebar-background-color;
+  }
+
+  .break {
+    height: 30px;
+    width: 210px;
+    border-bottom: 1px solid $background-basic-color;
+  }
+
+  .row-no-padding {
+    [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  .manager {
+    display: flex;
+    cursor: pointer;
+    
+    img {
+      height: 50px;
+      width: 50px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+
+    a {
+      color: $sidebar-font-color;
+      text-decoration: none;
+      margin-bottom: 10px;
+      margin-left: 10px;
+      filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+    }
+  }
+}
