@@ -4,18 +4,18 @@
   height: 40px;
   width: 200px;
   border-radius: 3%;
-  border: 1px solid $sidebar-background-color;
-  background-color: $sidebar-background-color;
+  border: 1px solid $leftside-background-color;
+  background-color: $leftside-background-color;
 
   a {
     flex: 3;
     text-decoration: none;
-    color: $sidebar-font-color;
+    color: $leftside-font-color;
     filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
   }
 
   img {
-    color: $sidebar-font-color;
+    color: $leftside-font-color;
     height: 20px;
     line-height: 20px;
     width: 20px;
@@ -40,11 +40,11 @@ aside {
   position: fixed;
   z-index: 2;
   max-width: 280px;
-  background-color: $sidebar-background-color;
+  background-color: $leftside-background-color;
 
 
   p {
-    color: $sidebar-font-color;
+    color: $leftside-font-color;
     font-weight: bold;
     filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
   }
@@ -55,19 +55,19 @@ aside {
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 30px; // Just do it
     font-style: italic;
     font-weight: bold;
     font-family: 'Satisfy', cursive;
   }
 
   .logo {
-    color: $sidebar-font-color;
+    color: $leftside-font-color;
     margin: 0 0 20px 10px;
     height: 60px;
     width: 200px;
-    border: 1px solid $sidebar-background-color;
-    background-color: $sidebar-background-color;
+    border: 1px solid $leftside-background-color;
+    background-color: $leftside-background-color;
   }
 
   .break {
@@ -95,7 +95,7 @@ aside {
     }
 
     a {
-      color: $sidebar-font-color;
+      color: $leftside-font-color;
       text-decoration: none;
       margin-bottom: 10px;
       margin-left: 10px;
