@@ -24,11 +24,6 @@
   }
 }
 
-.option:active {
-  background-color: #2b2b2b;
-  filter: brightness(150%);
-}
-
 .option:hover {
   background-color: #0a0a0a;
   filter: brightness(150%);
@@ -36,6 +31,7 @@
 }
 
 aside {
+  height: 100vh;
   opacity: 0.9;
   position: fixed;
   z-index: 2;

@@ -1,0 +1,38 @@
+.date-form {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid $background-sections-color;
+  background-color: $background-sections-color;
+
+  .date {
+    padding: 0 0 0 10px;
+    height: 50px;
+    width: 140px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 5%;
+    border: 2px solid $background-basic-color;
+  }
+
+  input {
+    height: 50px;
+    z-index: 1;
+    border-left: none;
+    border: 2px solid $background-basic-color;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    height: 20px;
+    width: 20px;
+    color: #020007;
+    opacity: 1;
+    display: block;
+    border-width: thin;
+    background-size: 18px;
+    background: url("../../icons/calendar.svg") no-repeat;
+  }
+}

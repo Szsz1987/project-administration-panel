@@ -1,0 +1,14 @@
+.view-header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid $background-basic-color;
+  background-color: $background-sections-color;
+
+  h3 {
+    margin-left: 15px;
+    font-family: $paragraph-font;
+    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(92%) contrast(82%);
+  }
+}
