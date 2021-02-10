@@ -19,6 +19,8 @@
   }
 
   input {
+    text-align: center;
+    padding-right: 10px;
     height: 50px;
     z-index: 1;
     border-left: none;
@@ -32,7 +34,7 @@
     opacity: 1;
     display: block;
     border-width: thin;
-    background-size: 18px;
+    background-size: $paragraph-font-size;
     background: url("../../icons/calendar.svg") no-repeat;
   }
 }

@@ -3,18 +3,18 @@
 @import "normalize";
 @import "layout";
 
-// Components 
-// @import "components/form_field";
+// /* Components */
 @import "components/view-header";
 @import "components/date-form";
 @import "components/refresh_button";
 @import "components/table-row";
-@import "components/chart-legend";
-// Sections 
-// @import "sections/registration_form";
+@import "components/single-chart-legend";
+@import "components/orange_button";
+@import "components/link";
+
+// /* Sections */
 @import "sections/sidebar";
 @import "sections/navbar";
 @import "sections/general";
 
-// Pages / Views 
-// @import "pages/registration"; 
+// /* Pages / Views */

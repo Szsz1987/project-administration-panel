@@ -2,7 +2,7 @@
   height: 40px;
   width: 40px;
   border-radius: 10%;
-  background-color: $button-background-color;
+  background-color: $button-orange-color;
   border: none;
   display: flex;
   align-items: center;
@@ -10,21 +10,19 @@
   margin-left: 20px;
 
   img {
-    color: #fffafa;
     height: 20px;
     width: 20px;
     line-height: 20px;
-    filter: invert(55%) sepia(1%) saturate(0%) hue-rotate(80deg) brightness(200%) contrast(82%);
   }
 }
 
 .refresh:hover {
-  opacity: 0.8;
   cursor: pointer;
+  opacity: 0.8;
 }
 
 .refresh:active {
-  background-color: #f4702d;
+  background-color: $button-orange-color;
   outline: none;
 }
 

@@ -1,0 +1,33 @@
+.btn-orange {
+  height: 40px;
+  width: 120px;
+  border-radius: 5%;
+  background-color: $button-orange-color;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+
+  a {
+    font-size: $paragraph-font-size;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: $paragraph-font;
+  }
+}
+
+.btn-orange:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-orange:active {
+  background-color: $button-orange-color;
+  outline: none;
+}
+
+.btn-orange:focus {
+  outline: none;
+}
