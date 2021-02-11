@@ -1,0 +1,48 @@
+
+.general-links {
+  margin: 0 0 20px 0;
+  padding: 0 0 10px 0;
+  height: auto;
+  width: 100%;
+  background-color: $background-sections-color;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+ul:nth-child(3) { 
+  background-color: $background-sections-color; 
+}
+
+.beam {
+  background-color: $background-sections-color; 
+  padding: 0;
+}
+
+
+/* Media */
+
+@media (max-width: 767px) {
+  .section-general-links {
+    margin: 30px 0 0 0;
+
+    .general-links {
+      margin: 0 0 20px 0;
+      padding: 0 0 10px 0;
+      height: auto;
+    }
+
+    .button-div {
+      padding: 25px 0 25x 0;
+    }
+    
+    ul {
+      padding-inline-start: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      flex-direction: column;
+    }
+  }
+}  

@@ -6,15 +6,20 @@
 // /* Components */
 @import "components/view-header";
 @import "components/date-form";
-@import "components/refresh_button";
+@import "components/refresh-button";
 @import "components/table-row";
 @import "components/single-chart-legend";
-@import "components/orange_button";
 @import "components/link";
+@import "components/orange-button";
 
 // /* Sections */
 @import "sections/sidebar";
 @import "sections/navbar";
 @import "sections/general";
+@import "sections/navbar-mobile";
+@import "sections/general-links";
+@import "sections/general-chart";
 
 // /* Pages / Views */
+@import "pages/page-general";
+@import "pages/page-links";
