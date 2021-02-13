@@ -28,6 +28,7 @@
   filter: brightness(150%);
   background-color: #0a0a0a;
   cursor: pointer;
+  border-left: 5px solid orange;
 }
 
 .option:active {
@@ -111,10 +112,9 @@ aside {
 
     a {
       color: $names-font-color;
-      opacity: 0.3;
-      font-weight: bold;
       margin-left: 10px;
       text-decoration: none;
+      font-family: $brand-font;
     }
   }
 }

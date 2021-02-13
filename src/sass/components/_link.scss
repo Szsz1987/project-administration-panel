@@ -9,13 +9,14 @@
   flex-direction: row;
 
   h3 {
-    opacity: 0.5;
+    color: #afafaf;
     flex: 1;
     margin-left: 15px;
     font-family: $paragraph-font;
   }
   
   a {
+    color: #9db6c7;
     flex: 1;
     text-decoration: none;
   }

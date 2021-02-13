@@ -66,17 +66,11 @@
       }
     }
   }
+}
 
-  .scroll-wrapper {
-    display: block;
+.chart .scroll-wrapper {
+  img {
     width: 100%;
-    overflow-x: auto;
-    text-align: center;
-
-    img {
-      width: auto;
-      max-width: 100%;
-    }
   }
 }
 
