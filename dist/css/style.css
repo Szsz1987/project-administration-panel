@@ -352,6 +352,7 @@ body {
 }
 
 .view-header {
+  box-shadow: 0 1px 10px 1px #e1dbdb;
   height: 60px;
   width: 100%;
   display: -ms-flexbox;
@@ -363,12 +364,13 @@ body {
 }
 
 .view-header h3 {
-  opacity: 0.5;
+  opacity: 0.3;
   margin-left: 15px;
   font-family: "Open Sans", Helvetica, Arial;
 }
 
 .date-form {
+  box-shadow: 0 2px 4px #e1dbdb;
   height: 120px;
   width: 100%;
   display: -ms-flexbox;
